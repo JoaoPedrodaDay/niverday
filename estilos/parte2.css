@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+ *{
+    font-family: comic relief;
+ }
+
+body , html {
+    background-color: rgb(136, 2, 2);
+}
+
+div.a {
+    display: block;
+    margin: auto;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: white;
+    width: 88vw;
+    padding-left: 10px;
+}
+div.a#a {
+    h1{ font-family: love light;
+        
+    }
+}
+
+div.a#b {
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+div.a#c {
+    display: flex;
+    align-items: center;
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+img {
+    border-radius: 100% ;
+    width: 120px;
+    padding: 5px;
+}
